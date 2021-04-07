@@ -80,6 +80,7 @@ console.log(age, "Correct");
 }
 question03();
 
+function question04(){
 let travel = prompt('do you think that I like football?,  (yes(y) or no(n))');
 travel=travel.toLowerCase()
 if ( travel ==='yes'||travel==='y'){ 
@@ -93,8 +94,10 @@ else{
 
 
 console.log(travel, "Correct");
+}
+question04();
 
-
+function question05(){
 let sleep = prompt('am I  a good guy ?,  (yes(y) or no(n))');
 sleep=sleep.toLowerCase()
 if ( sleep ==='yes'||sleep==='y'){ 
@@ -108,7 +111,8 @@ else{
 
 
 console.log(sleep, "Correct");
-
+}
+question05();
 
 
 
