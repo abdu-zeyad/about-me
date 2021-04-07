@@ -131,26 +131,35 @@ else if (num == 50){
 
 
 
-let array = ['apple','banana','orange']
+let array = ['apple','banana','orange','keywe','mango','tomato']
 
 let fruit = prompt('guess a fruit')
 
-for (let i = 0; i < 5; i++) {
+loop1 :{ for (let i = 0; i < 6; i++) {
+  
+  for (let j = 0; j < array.length; j++) {
+    
+  if (fruit == array[j]){
 
-if (fruit == array[0] || fruit== array[1] || fruit== array[2]){
+    alert('amazing, you found it, your answer is  '+ array[j])
+    alert('here are all the answers  '+array)
+    score=score + 1
+    break loop1
+    
+ }
+ 
 
-alert('amazing, you found it')
-alert('here are all the answers  '+array)
-score=score + 1 
-
-break 
 }
-
 fruit = prompt('try different fruit')
 
-}
+}}
+
+
+
 
 alert('this is your final score  ' + score)
+  
+
 
 
 
