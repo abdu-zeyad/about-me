@@ -28,6 +28,8 @@ alert('Welcome ' + Name)
 
 let score = 0;
 
+
+function question01(){
 let FavFood= prompt('do you think I am crazy  ?,  (yes(y) or no(n))');
  FavFood=FavFood.toLowerCase()
 if ( FavFood ==='yes'||FavFood==='y'){ 
@@ -40,7 +42,11 @@ else{
 
 
 console.log(FavFood, "Correct");
+}
+question01();
 
+
+function question02(){
 let soccor= prompt('do you think I am older than 18?,  (yes(y) or no(n))');
 soccor=soccor.toLowerCase()
 if ( soccor ==='yes'||soccor==='y'){ 
@@ -54,7 +60,10 @@ else{
 
 
 console.log(soccor, "Correct");
+}
+question02();
 
+function question03(){
 let age = prompt('do you think I love food  ?,  (yes(y) or no(n))');
 age=age.toLowerCase()
 if ( age ==='yes'||age==='y'){ 
@@ -68,7 +77,8 @@ else{
 
 
 console.log(age, "Correct");
-
+}
+question03();
 
 let travel = prompt('do you think that I like football?,  (yes(y) or no(n))');
 travel=travel.toLowerCase()
