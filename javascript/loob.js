@@ -28,6 +28,8 @@ alert('Welcome ' + Name)
 
 let score = 0;
 
+
+function question01(){
 let FavFood= prompt('do you think I am crazy  ?,  (yes(y) or no(n))');
  FavFood=FavFood.toLowerCase()
 if ( FavFood ==='yes'||FavFood==='y'){ 
@@ -40,7 +42,11 @@ else{
 
 
 console.log(FavFood, "Correct");
+}
+question01();
 
+
+function question02(){
 let soccor= prompt('do you think I am older than 18?,  (yes(y) or no(n))');
 soccor=soccor.toLowerCase()
 if ( soccor ==='yes'||soccor==='y'){ 
@@ -54,7 +60,10 @@ else{
 
 
 console.log(soccor, "Correct");
+}
+question02();
 
+function question03(){
 let age = prompt('do you think I love food  ?,  (yes(y) or no(n))');
 age=age.toLowerCase()
 if ( age ==='yes'||age==='y'){ 
@@ -68,8 +77,10 @@ else{
 
 
 console.log(age, "Correct");
+}
+question03();
 
-
+function question04(){
 let travel = prompt('do you think that I like football?,  (yes(y) or no(n))');
 travel=travel.toLowerCase()
 if ( travel ==='yes'||travel==='y'){ 
@@ -83,8 +94,10 @@ else{
 
 
 console.log(travel, "Correct");
+}
+question04();
 
-
+function question05(){
 let sleep = prompt('am I  a good guy ?,  (yes(y) or no(n))');
 sleep=sleep.toLowerCase()
 if ( sleep ==='yes'||sleep==='y'){ 
@@ -98,10 +111,11 @@ else{
 
 
 console.log(sleep, "Correct");
+}
+question05();
 
 
-
-
+function question06(){
 let num = prompt('guess a number')
 num = parseInt(num)
 for (let i = 0; i <= 3; i++) {
@@ -126,11 +140,12 @@ else if (num == 50){
 
   num = prompt('guess a number')
 }
+return num;
+}
+question06();
 
 
-
-
-
+function question07(){
 let array = ['apple','banana','orange','keywe','mango','tomato']
 
 let fruit = prompt('guess a fruit')
@@ -153,9 +168,9 @@ loop1 :{ for (let i = 0; i < 6; i++) {
 fruit = prompt('try different fruit')
 
 }}
-
-
-
+return fruit;
+}
+question07();
 
 alert('this is your final score  ' + score)
   
