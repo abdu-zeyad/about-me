@@ -115,7 +115,7 @@ console.log(sleep, "Correct");
 question05();
 
 
-
+function question06(){
 let num = prompt('guess a number')
 num = parseInt(num)
 for (let i = 0; i <= 3; i++) {
@@ -140,11 +140,12 @@ else if (num == 50){
 
   num = prompt('guess a number')
 }
+return num;
+}
+question06();
 
 
-
-
-
+function question07(){
 let array = ['apple','banana','orange','keywe','mango','tomato']
 
 let fruit = prompt('guess a fruit')
@@ -167,9 +168,9 @@ loop1 :{ for (let i = 0; i < 6; i++) {
 fruit = prompt('try different fruit')
 
 }}
-
-
-
+return fruit;
+}
+question07();
 
 alert('this is your final score  ' + score)
   
