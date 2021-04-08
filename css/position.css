@@ -30,3 +30,12 @@
     top: 0%;
     left: 0%;
 }
+#rel2{
+    background-color: rgb(26, 86, 88);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
